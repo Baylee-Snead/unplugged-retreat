@@ -107,8 +107,10 @@ html {
 body {
   font-family: 'Open sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
   line-height: 1.5em;
   margin: 0 10px;
+  background-color: #272827;
 }
 
 ul, ol {
@@ -120,16 +122,32 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  line-height: 1.25em;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+  line-height: 1.25em;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  line-height: 1.25em;
+  font-weight: normal;
 }
 
 h4 {
   font-family: 'Poppins', sans-serif;
+  font-size: 1.25em;
+  font-weight: normal;
+  line-height: 1.25em;
 }
 
 p {
@@ -147,6 +165,8 @@ figure {
 address {
   font-style: normal;
 }
+
+
 
 .content-wrapper {
   width: 90%;
@@ -206,6 +226,8 @@ header nav ul {
 header nav ul li {
   padding: 0px 20px;
   list-style-type: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 header nav ul li a {
@@ -245,6 +267,34 @@ footer address .contact {
 
 footer .copyright {
   margin: 20px 0;
+  text-align: center;
+}
+
+/* Aside Form Style */
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppings', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* ------------- Mobile Styles - Homepage ----------*/
@@ -264,6 +314,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #5d7159;
 }
 
 aside .email-address {
@@ -278,7 +329,7 @@ aside .email-address {
   flex-flow: row wrap;
 }
 
-.features h2 {
+.features h3 {
   margin-bottom: 60px;
 }
 
@@ -304,13 +355,14 @@ aside .email-address {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-}
-
-.reviews h2 {
-  margin-bottom: 40px;
+  background-color: #35443d;
 }
 
 .reviews h3 {
+  margin-bottom: 40px;
+}
+
+.reviews h4 {
   width: 55%;
   margin: 20px 0;
 }
@@ -322,6 +374,7 @@ aside .email-address {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #5d7159;
 }
 
 .contact-section {
@@ -329,6 +382,7 @@ aside .email-address {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #35443d;
 }
 
 .contact-content p {
@@ -342,6 +396,7 @@ aside .email-address {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #5d7159;
 }
 
 .faq .content-wrapper {
@@ -352,7 +407,7 @@ aside .email-address {
   flex-flow: row wrap;
 }
 
-.faq h2 {
+.faq h3 {
   margin-bottom: 40px;
 }
 
@@ -533,7 +588,7 @@ aside .content-wrapper .form {
   width: 40%;
 }
 
-.contact-section .content-wrapper h3 {
+.contact-section .content-wrapper h4 {
   width: 80%;
 }
 
@@ -553,7 +608,7 @@ aside .content-wrapper .form {
   flex-basis: 40%;
 }
 
-.faq h1 {
+.faq h2 {
   width: 100%;
 }
 
@@ -592,7 +647,7 @@ footer .copyright {
   /* Hero */
 
   .hero-area h1 {
-    width: 55%;
+    width: 65%;
   }
 
   /* Aside */
@@ -608,7 +663,7 @@ footer .copyright {
 
   /* Features */
 
-.features h2 {
+.features h3 {
   width: 70%;
 }
 
@@ -626,18 +681,18 @@ footer .copyright {
 
   /*------------------- About Page Desktop Styles ----------------*/
 
-.mission h1,
-.contact-section .content-wrapper h1 {
+.mission h2,
+.contact-section .content-wrapper h2 {
   width: 70%;
 }
 
-.contact-section .content-wrapper h1 {
+.contact-section .content-wrapper h2 {
   margin-bottom: 0;
 }
 
   /*-------------------- FAQ Page Desktop Styles ------------------*/
 
-.faq h1 {
+.faq h2 {
   width: 100%;
 }
 

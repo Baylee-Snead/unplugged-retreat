@@ -398,6 +398,23 @@ aside .email-address {
   margin: 0;
 }
 
+.map figure {
+  position: relative;
+  padding-bottom: 80%; /*sets up map's aspect ratio: relationship b/w height and width of map */
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+}
+
 /* --------------- Mobile Styles for FAQ page --------------*/
 
 .faq {

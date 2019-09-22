@@ -371,12 +371,12 @@ aside .email-address {
   background-color: #35443d;
 }
 
-.reviews h3 {
+.reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
 }
 
-.reviews h4 {
+.reviews h3 {
   width: 55%;
   margin: 20px 0;
 }
@@ -636,6 +636,11 @@ aside .content-wrapper .form {
   width: 49%;
 }
 
+.reviews h3 {
+  width: 75%;
+  margin: 0;
+}
+
 /*--------------- About Page Tablet Styles ---------*/
 
 .mission-content {
@@ -704,8 +709,18 @@ footer .contact {
   margin-bottom: 0;
 }
 
+footer h4 {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
 footer p {
   line-height: 1.285;
+}
+
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 footer .copyright {
